@@ -1,0 +1,31 @@
+name: quraan_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  flutter_svg: ^2.0.10+1
+  get_storage: ^2.1.1
+  flutter_staggered_animations: ^1.1.1
+  after_layout: ^1.2.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: Metrophobic
+      fonts:
+        - asset: assets/fonts/Metrophobic-Regular.ttf
